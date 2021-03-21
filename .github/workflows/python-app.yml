@@ -6,10 +6,10 @@ name: CloudSkills Python App
 on:
   push:
     branches:
-      - '*'
+      - '**'
   create:
     branches:
-      - '*'
+      - '**'
 
 jobs:
   build:
